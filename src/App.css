@@ -2,37 +2,60 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Product{
+  height:fit-content;
+  width: 240px;
+  padding: 10px 10px 10px 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+img{
+  width: 240;
+  height: 300;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.AddDish{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+  gap:24px;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.AddUsers{
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+  gap:24px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Dishes{
+  display: flex;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+  gap:24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+table,td,th{
+  width: 100%;
+  border-style:solid;
+  text-align: center;
+}
+
+tr{
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.header{
+ font-size:x-large;
+ color: midnightblue;
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
